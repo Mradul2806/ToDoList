@@ -8,7 +8,7 @@
 html { overflow-x: hidden; }
 
 body{
-    background-image: url(Images/background.webp);
+    background-image: url(Images/5.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -16,14 +16,13 @@ body{
 .container{
     width: 100vw;
     min-height: 100vh;
-    /* background: linear-gradient(135deg, #153677, #4e085f); */
     padding: 10px;
 }
 
 .todo-app{
     width: 100vw;
     max-width: 550px;
-    background: #ffffff37;
+    background: #ffffff32;
     margin: 100px auto 20px;
     padding: 40px 30px 50px;
     border-radius: 10px;
@@ -31,7 +30,7 @@ body{
 }
 
 .todo-app h2{
-    color: #002765;
+    color: #ffffff;
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -47,7 +46,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #edeef07d;
+    background: #C3C3E5;
     border-radius: 30px;
     padding-left: 20px;
     margin-bottom: 25px;
@@ -67,16 +66,12 @@ body{
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #ff5845ca;
+    background: #443266;
     color: #fff;
     font-size: 20px;
     cursor: pointer;
     font-weight: bold;
     border-radius: 40px;
-}
-
-.row button:hover{
-    background: #ff5845;
 }
 
 ul li{
@@ -114,7 +109,6 @@ ul li.checked::before{
     width: 35px;
     top: 8px;
     left: 5px;
-    /* font-size: 18px; */
 }
 
 ul li span{
