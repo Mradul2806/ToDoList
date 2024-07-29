@@ -8,7 +8,7 @@
 html { overflow-x: hidden; }
 
 body{
-    background-image: url(Images/5.webp);
+    background-image: url(Images/background.webp);
     background-repeat: no-repeat;
     background-size: cover;
 }
